@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time zone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-time-container">
+        <p class="main-location" id="main-location">your local time:</p>
+        <p class="main-time" id="main-time">hh:mm:ss</p>
+    </div>
+    <div class="user-input-container">
+        <input class="search-time-zone" id="search-time-zone" type="text">
+        <button class="add-time-zone" id="add-time-zone" onclick="timeZoneName()">Add Time Zone</button>
+    </div>
+    <div class="other-time-container" id="other-time-container">
+        <div class="time-zone">
+            <h2 class="time-zone-name">Name</h2>
+            <p class="time-zone-time">hh:mm:ss</p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
